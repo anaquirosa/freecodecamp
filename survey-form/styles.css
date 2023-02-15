@@ -1,0 +1,60 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*css reset */
+*{
+  margin:5;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 1000px;
+  height: 100vh;
+  margin: 150px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+  #title {
+    font-size: 40;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+  }
+
+  #description {
+    font-size: 16;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #survey-form {
+    background-color: #2222425d;
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  #submit {
+    background: #22d89d;
+    color: #white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  #submit:hover {
+    background: rgb(9, 168, 89);
+  }
+
+.form {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: none;
+}
+
+  @media only screen and (max-width:480px){
