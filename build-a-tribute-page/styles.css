@@ -1,0 +1,59 @@
+* {
+  font-family: 'Helvetica Neue'
+}
+
+body {
+  margin: 50px;
+}
+#title {
+  font-size: 30px;
+  width: center;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Helvetica Neue';
+  margin: 10px;
+}
+
+.center {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+h1 {
+  font-size: 20px;
+}
+
+#subtitle {
+  font-size: 20px;
+}
+
+#img-caption {
+  margin: 20px;
+}
+
+#tribute-info {
+  background-color: rgb(245,245,245);
+  padding: 50px;
+  margin: 10px
+}
+
+
+#text2 {
+  max-width: 715px;
+  padding: 21px;
+  text-align: left;
+}
+
+#end {
+  font-size: 16px;
+  padding: 30px;
+  text-align: center;
+}
